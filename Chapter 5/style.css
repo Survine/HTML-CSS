@@ -1,27 +1,26 @@
-/* Basic Styling for the Body */
 body {
     background-color: rgb(143, 201, 228);
     color: rgb(98, 9, 241);
     text-align: center;
 }
 
-/* Styling for Headings */
+
 h1 {
     color: white;
     background-color: black;
 }
 
-/* Styling for Paragraphs */
+
 p {
     color: blue;
 }
 
-/* ID Selector */
+
 #p1 {
     color: tomato;
 }
 
-/* Class Selectors */
+
 .odd {
     color: red;
 }
