@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1 id="title">Customer Feedback Survey</h1>
+
+    <p id="description">We value your feedback! Please take a moment to fill out this survey.</p>
+
+    <form id="survey-form" action="#" method="post">
+
+        <label id="name-label" for="name">Name:</label>
+        <input 
+            type="text" 
+            id="name" 
+            name="name" 
+            placeholder="Enter your full name" 
+            required>
+
+        <label id="email-label" for="email">Email:</label>
+        <input 
+            type="email" 
+            id="email" 
+            name="email" 
+            placeholder="Enter your email address" 
+            required>
+
+        <label id="number-label" for="number">Age:</label>
+        <input 
+            type="number" 
+            id="number" 
+            name="age" 
+            min="10" 
+            max="100" 
+            placeholder="Enter your age" 
+            required>
+
+        <label for="dropdown">How often do you use our services?</label>
+        <select id="dropdown" name="usage">
+            <option value="frequently">Frequently</option>
+            <option value="occasionally">Occasionally</option>
+            <option value="rarely">Rarely</option>
+        </select>
+
+        <p>How satisfied are you with our service?</p>
+        <label><input type="radio" name="satisfaction" value="very satisfied" required> Very Satisfied</label>
+        <label><input type="radio" name="satisfaction" value="satisfied"> Satisfied</label>
+        <label><input type="radio" name="satisfaction" value="neutral"> Neutral</label>
+
+        <p>What features do you use? (Select all that apply)</p>
+        <label><input type="checkbox" name="features" value="online orders"> Online Orders</label>
+        <label><input type="checkbox" name="features" value="home delivery"> Home Delivery</label>
+        <label><input type="checkbox" name="features" value="customer support"> Customer Support</label>
+
+        <label for="comments">Additional Comments:</label>
+        <textarea id="comments" name="comments" placeholder="Leave your comments here..."></textarea>
+
+        <button id="submit" type="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>
