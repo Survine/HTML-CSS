@@ -1,33 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-   <link rel="stylesheet" href="m.css">
+    <title>Registration Form</title>
+    <style>
+        body {
+            background-color: aquamarine;
+            text-align: center;
+        }
+
+        h1 {
+            color: blueviolet;
+        }
+
+        form {
+            width: 60vw;
+            max-width: 500px;
+            min-width: 300px;
+            margin: 0 auto;
+            padding-bottom: 2em;
+        }
+
+        select,
+        input {
+            margin: auto;
+            width: 170px;
+            margin-bottom: 5px;
+        }
+
+        label {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin-right: 5px;
+            position: relative;
+        }
+    </style>
 </head>
+
 <body>
-    <header>
-        <h1>Welcome to My Heart</h1>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Products</a>
-            <a href="#">Contact us</a>
-        </nav>
-    </header>
-
-    <main>
-        <h4>Checkout about Heart:</h4>
-        <p>Heart is not about love only. It's about blood flow with emotions also.</p>
-    </main>
-
-    <footer>
-        <hr>
-        author:MahiiiEsha<br>
-        &copy;copyright reserved<br>
-        <small><a href="mailto:MahiiiEsha@real.com">MahiiiEsha@real.com</a></small>
-    </footer>
-
+    <h1>Registration Form</h1>
+    <form>
+        <div><label for="name">Name : <input type="text" id="name"></label></div>
+        <div><label for="sid">Student Id : <input type="text" id="sid"></label></div>
+        <div><label for="turoll">TU Id : <input type="text" id="turoll"></label></div>
+        <div><label for="sem">Semester : <select name="sem" id="sem"></div>
+        <option value="1st">1st</option>
+        <option value="2nd">2nd</option>
+        <option value="3rd">3rd</option>
+        <option value="4th">4th</option>
+        <option value="5th">5th</option>
+        <option value="6th">6th</option>
+        <option value="7th">7th</option>
+        <option value="8th">8th</option>
+        </select></label>
+        <div><label for="branch">Branch : <input type="text" id="branch"></label></div>
+    </form>
+    <button>Submit</button>
+    <br>
+    <marquee behavior="slide" direction="right">
+        <p>This is a Techno Registration Form</p>
+    </marquee>
 </body>
+
 </html>
