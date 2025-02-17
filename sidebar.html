@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Webpage</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+        header, footer {
+            background-color: #578FCA;
+            padding: 1em;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex: 1;
+            text-align: center;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: #A1E3F9;
+            padding: 1em;
+        }
+        .content {
+            flex: 1;
+            padding: 1em;
+            background-color: #D1F8EF;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Header</h1>
+    </header>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Sidebar</h2>
+            <p>Sidebar content goes here.</p>
+        </div>
+        <div class="content">
+            <h2>Content Area</h2>
+            <p>Main content goes here.</p>
+        </div>
+    </div>
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+</html>
