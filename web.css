@@ -1,0 +1,17 @@
+.style1 {
+    font-family: Arial, sans-serif;
+    color: blue;
+    font-size: 20px;
+}
+.style2 {
+    font-family: Georgia, serif;
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+}
+.style3 {
+    font-family: Courier New, monospace;
+    color: red;
+    font-size: 18px;
+    font-style: italic;
+}
